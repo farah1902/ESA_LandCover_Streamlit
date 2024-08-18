@@ -4,8 +4,8 @@ import leafmap.foliumap as leafmap
 st.set_page_config(layout="wide")
 
 markdown = """
-Web App URL: <https://geotemplate.streamlit.app>
-GitHub Repository: <https://github.com/giswqs/streamlit-multipage-template>
+Web App URL: <https://saadfrh-esa-landcover.streamlit.app/>
+GitHub Repository: <https://github.com/farah1902/ESA_LandCover_Streamlit>
 """
 
 st.sidebar.title("About")

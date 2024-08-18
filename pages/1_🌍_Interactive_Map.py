@@ -2,14 +2,18 @@ import streamlit as st
 import leafmap.foliumap as leafmap
 
 markdown = """
-Web App URL: <https://geotemplate.streamlit.app>
-GitHub Repository: <https://github.com/giswqs/streamlit-multipage-template>
+Web App URL: <https://saadfrh-esa-landcover.streamlit.app/>
+GitHub Repository: <https://github.com/farah1902/ESA_LandCover_Streamlit>
 """
 
 st.sidebar.title("About")
 st.sidebar.info(markdown)
 logo = "https://i.postimg.cc/yddLX0NY/gep1.png"
 st.sidebar.image(logo)
+
+st.sidebar.markdown("Developed by Saad Farah")
+personal_link = "[My GitLink](https://saadfrh.github.io/)"
+st.sidebar.markdown(personal_link)
 
 
 st.title("Interactive Map")
