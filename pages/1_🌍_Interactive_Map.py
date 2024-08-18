@@ -12,7 +12,7 @@ logo = "https://i.postimg.cc/yddLX0NY/gep1.png"
 st.sidebar.image(logo)
 
 
-personal_link = "Developed by[Saad Farah](https://saadfrh.github.io/)"
+personal_link = "Developed by [Saad Farah](https://saadfrh.github.io/)"
 st.sidebar.markdown(personal_link)
 
 

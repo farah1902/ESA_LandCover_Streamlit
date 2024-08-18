@@ -15,7 +15,7 @@ logo = "https://i.postimg.cc/yddLX0NY/gep1.png"
 st.sidebar.image(logo)
 
 # Customize page title
-st.title("GIS Applications")
+st.title("GIS Applications with Streamlit")
 
 st.markdown(
     """
