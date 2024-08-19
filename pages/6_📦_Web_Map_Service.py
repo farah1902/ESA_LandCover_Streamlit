@@ -6,7 +6,7 @@ st.set_page_config(layout="wide")
 
 markdown = """
 Web App URL: <https://saadfrh-esa-landcover.streamlit.app/>
-GitHub Repository: <https://github.com/farah1902/ESA_LandCover_Streamlit>
+\nGitHub Repository: <https://github.com/farah1902/ESA_LandCover_Streamlit>
 """
 
 st.sidebar.title("About")
@@ -17,6 +17,11 @@ st.sidebar.image(logo)
 personal_link = "Developed by [Saad Farah](https://saadfrh.github.io/)"
 st.sidebar.markdown(personal_link)
 
+
+
+
+
+""" 
 @st.cache
 def get_layers(url):
     options = leafmap.get_wms_layers(url)
@@ -25,11 +30,11 @@ def get_layers(url):
 
 st.title("Web Map Service (WMS)")
 st.markdown(
-    """
+
 This app is a demonstration of loading Web Map Service (WMS) layers. Simply enter the URL of the WMS service 
 in the text box below and press Enter to retrieve the layers. Go to https://apps.nationalmap.gov/services to find 
 some WMS URLs if needed.
-"""
+
 )
 
 row1_col1, row1_col2 = st.columns([3, 1.3])
@@ -79,3 +84,4 @@ with row1_col2:
             m.add_legend(legend_dict=legend_dict)
 
         m.to_streamlit(width, height)
+ """

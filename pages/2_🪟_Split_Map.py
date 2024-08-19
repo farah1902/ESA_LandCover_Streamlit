@@ -5,7 +5,7 @@ st.set_page_config(layout="wide")
 
 markdown = """
 Web App URL: <https://saadfrh-esa-landcover.streamlit.app/>
-GitHub Repository: <https://github.com/farah1902/ESA_LandCover_Streamlit>
+\nGitHub Repository: <https://github.com/farah1902/ESA_LandCover_Streamlit>
 """
 
 st.sidebar.title("About")

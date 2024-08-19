@@ -1,19 +1,24 @@
-# streamlit-multipage-template
+# GIS Applications with Streamlit
 
 A streamlit multipage app template for geospatial applications. It can be deployed to [Streamlit Cloud](https://streamlit.io/cloud) or [MyBinder](https://mybinder.org/).
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/giswqs/streamlit-multipage-template/master?urlpath=proxy/8501/)
+[![Binder](https://mybinder.org/badge_logo.svg)]
 
-Web App URL: <https://geotemplate.streamlit.app>
+Web App URL: <https://saadfrh-esa-landcover.streamlit.app>
 
 ## Instructions
 
-1. For the GitHub repository or use it as a template for your own project.
-2. Customize the sidebar by changing the sidebar text and logo in each Python file.
-3. Find your favorite emoji from https://emojipedia.org.
-4. Add a new app to the `pages/` directory with an emoji in the file name, e.g., 1_🚀_Chart.py.
+1- [🗺️ Interactive Map ](https://saadfrh-esa-landcover.streamlit.app): Visualize the map with customizable basemaps, draw polygons, and export your data as a GeoJSON file.
+
+2- [🎚️ Split Map ](https://saadfrh-esa-landcover.streamlit.app): Compare different maps side by side, such as ESA WorldCover 2020 S2 FCC and ESA Land Cover, to observe the differences.
+
+3- [📍 Marker Cluster ](https://saadfrh-esa-landcover.streamlit.app): Display multiple markers on the map, grouped into clusters, with popups providing detailed information for each location.
+
+4- [🔥 Heatmap ](https://saadfrh-esa-landcover.streamlit.app): Convert your CSV data into a heatmap for visualizing the intensity of data points across a region.
+
+5- [🔎 Basemaps ](https://saadfrh-esa-landcover.streamlit.app): Explore and load basemaps from a vast selection, including XYZ services and Quick Map Services, with over 1000 options available at your fingertips.
 
 ## Demo
 
-![](https://i.imgur.com/6lj0oAO.png)
+![](images\split_map.png)
 "# ESA_LandCover_Streamlit" 
