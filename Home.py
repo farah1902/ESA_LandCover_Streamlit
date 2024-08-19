@@ -29,15 +29,15 @@ st.markdown(
 st.header("Instructions")
 
 markdown = """
-1- [🗺️ Interactive Map ](https://saadfrh-esa-landcover.streamlit.app): Visualize the map with customizable basemaps, draw polygons, and export your data as a GeoJSON file.
+1- 🗺️ [Interactive Map ](https://saadfrh-esa-landcover.streamlit.app): Visualize the map with customizable basemaps, draw polygons, and export your data as a GeoJSON file.
 
-2- [🎚️ Split Map ](https://saadfrh-esa-landcover.streamlit.app): Compare different maps side by side, such as ESA WorldCover 2020 S2 FCC and ESA Land Cover, to observe the differences.
+2- 🎚️ [Split Map ](https://saadfrh-esa-landcover.streamlit.app): Compare different maps side by side, such as ESA WorldCover 2020 S2 FCC and ESA Land Cover, to observe the differences.
 
-3- [📍 Marker Cluster ](https://saadfrh-esa-landcover.streamlit.app): Display multiple markers on the map, grouped into clusters, with popups providing detailed information for each location.
+3- 📍 [Marker Cluster ](https://saadfrh-esa-landcover.streamlit.app): Display multiple markers on the map, grouped into clusters, with popups providing detailed information for each location.
 
-4- [🔥 Heatmap ](https://saadfrh-esa-landcover.streamlit.app): Convert your CSV data into a heatmap for visualizing the intensity of data points across a region.
+4- 🔥 [Heatmap ](https://saadfrh-esa-landcover.streamlit.app): Convert your CSV data into a heatmap for visualizing the intensity of data points across a region.
 
-5- [🔎 Basemaps ](https://saadfrh-esa-landcover.streamlit.app): Explore and load basemaps from a vast selection, including XYZ services and Quick Map Services, with over 1000 options available at your fingertips.
+5- 🔎 [Basemaps ](https://saadfrh-esa-landcover.streamlit.app): Explore and load basemaps from a vast selection, including XYZ services and Quick Map Services, with over 1000 options available at your fingertips.
 
 """
 

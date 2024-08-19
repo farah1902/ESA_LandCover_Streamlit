@@ -20,5 +20,5 @@ Web App URL: <https://saadfrh-esa-landcover.streamlit.app>
 
 ## Demo
 
-![](images\split_map.png)
+![](images/split_map.png)
 "# ESA_LandCover_Streamlit" 
