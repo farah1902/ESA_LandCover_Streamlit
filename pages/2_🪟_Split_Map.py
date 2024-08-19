@@ -20,31 +20,10 @@ st.title("Split-panel Map")
 
 with st.expander("See source code"):
     with st.echo():
-        # Create the map object
         m = leafmap.Map()
-
-        # Add the split map with ESA layers
         m.split_map(
-            left_layer='ESA WorldCover 2020 S2 FCC', 
-            right_layer='ESA WorldCover 2020'
+            left_layer='ESA WorldCover 2020 S2 FCC', right_layer='ESA WorldCover 2020'
         )
-
-        # Add satellite basemap
-        m.add_tile_layer(
-            url="https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png", 
-            name="Satellite", 
-            attribution="Map data © OpenStreetMap contributors"
-        )
-
-        # Add OpenStreetMap basemap
-        m.add_tile_layer(
-            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", 
-            name="OpenStreetMap", 
-            attribution="Map data © OpenStreetMap contributors"
-        )
-        
-        # Add a legend
         m.add_legend(title='ESA Land Cover', builtin_legend='ESA_WorldCover')
 
-# Render the map in Streamlit
 m.to_streamlit(height=700)
